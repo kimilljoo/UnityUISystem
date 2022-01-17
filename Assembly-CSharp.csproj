@@ -58,11 +58,15 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\MoveAToB.cs" />
     <Compile Include="Assets\Scripts\SwipeUI.cs" />
+    <Compile Include="Assets\Scripts\NavigationView.cs" />
     <Compile Include="Assets\Scripts\UIHUDText.cs" />
     <Compile Include="Assets\Scripts\DraggableUI.cs" />
     <Compile Include="Assets\Scripts\PlayerHp.cs" />
     <Compile Include="Assets\Scripts\DroppableUI.cs" />
-    <Compile Include="Assets\Scripts\NavigationView.cs" />
+    <Compile Include="Assets\Scripts\EquipmentTemplate.cs" />
+    <Compile Include="Assets\Scripts\EquipmentCategory.cs" />
+    <Compile Include="Assets\Scripts\Equipment.cs" />
+    <Compile Include="Assets\Scripts\EquipmentButton.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
