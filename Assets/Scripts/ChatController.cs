@@ -148,7 +148,7 @@ public class ChatController : MonoBehaviour
         {
             lastChatData = chat;
 
-            string[] whisper = chat.Split(' ',3);
+            string[] whisper = chat.Split(' ');
 
             if (whisper[1] == friendID)
             {
@@ -170,7 +170,7 @@ public class ChatController : MonoBehaviour
 
             lastChatData = chat;
 
-            string[] whisper = chat.Split(' ',2);
+            string[] whisper = chat.Split(' ');
 
             PrintChatData(ChatType.Whisper, ChatTypeToColor(ChatType.Whisper), $"[to {lastWhisperID}] {whisper[1]}");
         }
